@@ -11,6 +11,10 @@ const port3 = 3000;
 
 const port4 = 3000;
 
+console.log('Un mensaje')
+console.log('Otro mensaje')
+console.log('Otro mensaje')
+
 const server = http.createServer((req, res) => {
     if (req.url === '/' && req.method === 'GET') {
         // Lee el archivo index.html
